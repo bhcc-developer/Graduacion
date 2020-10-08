@@ -1,0 +1,39 @@
+{
+  "name": "violencia",
+  "version": "0.0.1",
+  "description": "Proyecto de gradución de ingenieria en sistemas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/.",
+    "start": "node src/."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhcc-developer/Graduacion.git"
+  },
+  "keywords": [
+    "React",
+    "Sass",
+    "Node.js",
+    "expressjs",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "Bryan Heraldo Carias Cervantes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhcc-developer/Graduacion/issues"
+  },
+  "homepage": "https://github.com/bhcc-developer/Graduacion#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

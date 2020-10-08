@@ -1,0 +1,11 @@
+@Host = http://localhost:4000/
+@HostProd = 'http://localhost:4000/
+
+POST {{Host}}api/signup
+Content-Type: application/json
+
+{
+  "username": "Admin.INE", 
+  "password": "12345", 
+  "role": "Admin"
+}
